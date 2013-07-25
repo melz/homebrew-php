@@ -3,8 +3,8 @@ require File.join(File.dirname(__FILE__), 'abstract-php-extension')
 class Php53Phalcon < AbstractPhp53Extension
   init
   homepage 'http://phalconphp.com/'
-  url 'https://github.com/phalcon/cphalcon/tarball/1.2.0'
-  sha1 '125d0315bc0d479070176761631220469217ecc5'
+  url 'https://github.com/phalcon/cphalcon/archive/v1.2.1.tar.gz'
+  sha1 'd2945ba5894bc41c0632e08c59ff6dce4b5ef417'
   head 'git://github.com/phalcon/cphalcon.git', :using => :git
   version '1.2.0'
 
