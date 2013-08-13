@@ -3,10 +3,9 @@ require File.join(File.dirname(__FILE__), 'abstract-php-extension')
 class Php54Phalcon < AbstractPhp54Extension
   init
   homepage 'http://phalconphp.com/'
-  url 'https://github.com/phalcon/cphalcon/archive/v1.2.1.tar.gz'
-  sha1 '5d6f6f5c8d466d0714c37d17078905d00ecd3146'
-  head 'git://github.com/phalcon/cphalcon.git', :using => :git
-  version '1.2.1'
+  url 'https://github.com/phalcon/cphalcon/archive/v1.2.3.tar.gz'
+  sha1 '79e2c26ce05b89c9424f9c263052d6d359eb39d7'
+  head 'git://github.com/phalcon/cphalcon.git'
 
   depends_on 'pcre'
 
