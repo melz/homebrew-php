@@ -4,7 +4,7 @@ class Php54Phalcon < AbstractPhp54Extension
   init
   homepage 'http://phalconphp.com/'
   url 'https://github.com/phalcon/cphalcon/archive/v1.2.3.tar.gz'
-  sha1 '79e2c26ce05b89c9424f9c263052d6d359eb39d7'
+  sha1 'a8e74efa92f131cbd08fc32e042da8c3be706485'
   head 'git://github.com/phalcon/cphalcon.git'
 
   depends_on 'pcre'
